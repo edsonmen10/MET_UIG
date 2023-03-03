@@ -1,0 +1,32 @@
+{
+    "titulacion" : [
+        {
+            "id" : 0,
+            "nombre": "--Selecciona"
+        },
+        {
+            "id" : 1,
+            "nombre": "POR TESIS"
+        },
+        {
+            "id" : 2,
+            "nombre": "POR PROMEDIO"
+        },
+        {
+            "id" : 3,
+            "nombre": "POR ESTUDIOS POSGRADOS"
+        },
+        {
+            "id" : 4,
+            "nombre": "POR EXPERIENCIA LABORAL"
+        },
+        {
+            "id" : 5,
+            "nombre": "POR CENEVAL"
+        },
+        {
+            "id" : 6,
+            "nombre": "OTRO"
+        }
+    ]
+}

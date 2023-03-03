@@ -1,0 +1,159 @@
+:root {
+    --primario: #ef0a0a;
+    --primarioOscuro: #810202;
+    --secundario: #7a7a7a;
+    --secundarioClaro: #b7b2b2;
+    --blanco: #FFF;
+    --negro: #000;
+
+    --fuentePrincipal: 'PT Sans', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/** Globales **/
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--blanco);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: var(--fuentePrincipal);
+}
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+a {
+    text-decoration: none;
+}
+h2, h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
+}
+h1 {
+    font-size: 4rem;
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+}
+h2 {
+    font-size: 3.2rem;
+}
+h3 {
+    font-size: 2.4rem;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primario);
+}
+/* Header */
+
+.header {
+    background-color: var(--primario);
+}
+@media (min-width: 770px) {
+    .header {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+    .header__titulo {
+        margin-top: 2rem;
+    }
+}
+.header__logo {
+    width: 27rem;
+    margin-left: 2rem;
+}
+
+/* Formulario Login */
+
+    .div-formulario {
+        border: 2px solid var(--negro);
+        margin: 5rem auto 0 auto;
+        width: 100%;
+    }
+    .form {
+        width: 75%;
+        margin: 5rem;
+    }
+    .campo-login {
+        width: 85%;
+        outline: none;
+    }
+    .boton-enviar {
+        display: block;
+        font-family: var(--fuentePrincipal);
+        color: var(--blanco);
+        text-align: center;
+        padding: 1rem 3rem;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        border: none;
+    }
+    .div-btn{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .btn-sesion {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        border-radius: 9px;
+        color: var(--blanco);
+        background-color: var(--primario);
+    } 
+    
+    @media (min-width: 770px) {
+        .div-formulario {
+            width: 40%;
+        }
+    }
+
+    /* Formulario MET*/
+    @media (min-width: 770px) {
+        .form-met {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .form-met {
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .campo {
+        display: flex;
+    }
+    .campo__label {
+        flex: 0 0 13rem;
+        text-align: right;
+        padding-right: 2rem;
+    }
+    .campo__field {
+        border: 1px solid var(--negro);
+        margin: 1rem;
+    }
+
+    select {
+        width: 56%;
+    }
+
+

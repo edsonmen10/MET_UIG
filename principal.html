@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MET UIG</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img class="header__logo" src="img/UIG LOGO CC-03.png" alt="UIG Logo">
+        </div>
+        <div class="header__titulo">
+            <h1>SISTEMA MET</h1>
+        </div>
+    </header>
+    <main class="contenedor">
+        <div>
+                <form class="form-met">
+                    <div>
+                        <div class="campo">
+                            <label class="campo__label" for="folio">Folio</label>
+                            <input class="campo__field" type="text" id="folio">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="email">Matricula</label>
+                            <input class="campo__field" type="email" id="matricula">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="curp">CURP</label>
+                            <input class="campo__field" type="text" id="curp">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="nombre">Nombre</label>
+                            <input class="campo__field" type="text" id="nombre">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="paterno">Apellido Pat.</label>
+                            <input class="campo__field" type="email" id="paterno">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="materno">Apellido Mat.</label>
+                            <input class="campo__field" type="email" id="materno">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="plantel">Plantel</label>
+                            <select class="campo__field" name=lista_planteles"" id="lista_planteles"></select>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="carrera">Nombre Carrera</label>
+                            <select class="campo__field" name="" id="carrera"></select>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="inicio">Inicio Carrera</label>
+                            <select class="campo__field" name="" id="inicio"></select>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="fin">Fin Carrera</label>
+                            <select class="campo__field" name="" id="fin"></select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="campo">
+                            <label class="campo__label" for="titulacion">Mod. Titulacion</label>
+                            <select class="campo__field" name="" id="titulacion"></select>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="expedicion">Fecha Exp.</label>
+                            <input class="campo__field" type="date" id="expedicion">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="excension">Fecha/Exc. Prof.</label>
+                            <input class="campo__field" type="date" id="excension">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="servicio">Servicio Social</label>
+                            <input class="campo__field" type="checkbox" id="servicio">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="institucion">Institucion Procedencia</label>
+                            <input class="campo__field" type="text" id="insitucion">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="antecedente">Estudios Antecedentes</label>
+                            <select class="campo__field" name="" id="antecedente"></select>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="entidad">Entidad Federativa</label>
+                            <select class="campo__field" name="" id="entidad"></select>
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="inicio_antes">Fecha inicio</label>
+                            <input class="campo__field" type="date" id="inicio_antes">
+                        </div>
+                        <div class="campo">
+                            <label class="campo__label" for="fin_antes">Fecha Fin</label>
+                            <input class="campo__field" type="date" id="fin_antes">
+                        </div>
+                    </div>
+                </form>
+                <script src="js/app.js"></script>
+                <script src="js/bases.js"></script>   
+    <script type="text/javascript">  
+        $(document).ready(function() { 
+            $('#btnModal').click(function(event){
+                clearModal();
+                $('#myModal').modal('show');                
+            }); 
+            $('#btnGuardar').click(function(event){                    
+                var n= $('#txtNombre').val();
+                var a = $('#txtApellido').val();
+                var t = $('#txtTelefono').val();
+                $.ajax({
+                    type: "POST",
+                    data: {"nombre" : n, "apellido" : a, "telefono" : t},
+                    url: "ajaxSleep.php",
+                    beforeSend: function () {
+                        $('#imgLoad').show();
+                    },
+                    success: function(response) { 
+                        $('#lblDatos').text(response);                           
+                    },
+                    error: function(jqXHR, textStatus, errorThrown){
+                        //if(textStatus === 'timeout'){alert('Failed from timeout');}   
+                        if (jqXHR.status === 0) {alert('Not connect: Verify Network: ' + textStatus);}
+                        else if (jqXHR.status == 404) {alert('Requested page not found [404]');} 
+                        else if (jqXHR.status == 500) {alert('Internal Server Error [500].');}
+                        else if (textStatus === 'parsererror') {alert('Requested JSON parse failed.');}
+                        else if (textStatus === 'timeout') {alert('Time out error.');} 
+                        else if (textStatus === 'abort') {alert('Ajax request aborted.');} 
+                        else {alert('Uncaught Error: ' + jqXHR.responseText);}
+                    },
+                    timeout: 5000
+                    //timeout: 1000//para probar timeout
+                }).always(function(){
+                    $('#imgLoad').hide();
+                    $('#myModal').modal('toggle');//Verificar uso 
+                    clearModal();
+                });
+                event.preventDefault();
+            });  
+            function clearModal(){
+                //Limpio las cajas de texto del modal
+                $('.modal-body input').val('');
+            }    
+        });            
+    </script>
+</body>
+</html>

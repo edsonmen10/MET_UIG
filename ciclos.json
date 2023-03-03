@@ -1,0 +1,376 @@
+{
+    "ciclos" : [
+        {
+            "id" : 0,
+            "nombre_ciclo": "--Selecciona un ciclo",
+            "inicio": "0",
+            "fin": "0"
+        },
+        {
+            "id" : 1,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-11",
+            "inicio": "2011-05-27",
+            "fin": "2011-09-08"
+        },
+        {
+            "id" : 2,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-12",
+            "inicio": "2011-10-08",
+            "fin": "2012-01-21"
+        },
+        {
+            "id" : 3,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-12",
+            "inicio": "2012-02-11",
+            "fin": "2012-05-20"
+        },
+        {
+            "id" : 4,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-12",
+            "inicio": "2012-06-09",
+            "fin": "2012-09-09"
+        },
+        {
+            "id" : 5,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-13",
+            "inicio": "2012-10-06",
+            "fin": "2013-01-20"
+        },
+        {
+            "id" : 6,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-13",
+            "inicio": "2013-02-09",
+            "fin": "2013-05-26"
+        },
+        {
+            "id" : 7,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-13",
+            "inicio": "2013-05-27",
+            "fin": "2013-09-08"
+        },
+        {
+            "id" : 8,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-14",
+            "inicio": "2013-10-07",
+            "fin": "2014-01-31"
+        },
+        {
+            "id" : 9,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-14",
+            "inicio": "2014-02-15",
+            "fin": "2014-05-25"
+        },
+        {
+            "id" : 10,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-14",
+            "inicio": "2014-06-14",
+            "fin": "2014-09-14"
+        },
+        {
+            "id" : 11,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-15",
+            "inicio": "2014-10-11",
+            "fin": "2015-01-31"
+        },
+        {
+            "id" : 12,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-15",
+            "inicio": "2015-02-16",
+            "fin": "2015-05-31"
+        },
+        {
+            "id" : 13,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-15",
+            "inicio": "2015-06-14",
+            "fin": "2015-09-15"
+        },
+        {
+            "id" : 14,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-16",
+            "inicio": "2015-10-04",
+            "fin": "2016-01-26"
+        },
+        {
+            "id" : 15,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-16",
+            "inicio": "2016-02-15",
+            "fin": "2016-06-05"
+        },
+        {
+            "id" : 16,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-16",
+            "inicio": "2016-06-11",
+            "fin": "2016-09-18"
+        },
+        {
+            "id" : 17,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-17",
+            "inicio": "2016-10-03",
+            "fin": "2017-01-22"
+        },
+        {
+            "id" : 18,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-17",
+            "inicio": "2017-02-13",
+            "fin": "2017-06-04"
+        },
+        {
+            "id" : 19,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-17",
+            "inicio": "2017-06-12",
+            "fin": "2017-09-24"
+        },
+        {
+            "id" : 20,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-18",
+            "inicio": "2017-10-02",
+            "fin": "2018-01-23"
+        },
+        {
+            "id" : 21,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-18",
+            "inicio": "2018-02-12",
+            "fin": "2018-05-28"
+        },
+        {
+            "id" : 22,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-18",
+            "inicio": "2018-06-11",
+            "fin": "22018-09-15"
+        },
+        {
+            "id" : 23,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-19",
+            "inicio": "2018-10-01",
+            "fin": "2019-01-20"
+        },
+        {
+            "id" : 24,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-19",
+            "inicio": "2019-02-11",
+            "fin": "2019-05-26"
+        },
+        {
+            "id" : 25,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-19",
+            "inicio": "2019-06-03",
+            "fin": "2019-09-15"
+        },
+        {
+            "id" : 26,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-20",
+            "inicio": "2019-09-30",
+            "fin": "2020-01-19"
+        },
+        {
+            "id" : 27,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-20",
+            "inicio": "2020-02-10",
+            "fin": "2020-05-24"
+        },
+        {
+            "id" : 28,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-20",
+            "inicio": "2020-06-08",
+            "fin": "2020-09-13"
+        },
+        {
+            "id" : 29,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-21",
+            "inicio": "2020-09-28",
+            "fin": "2021-01-17"
+        },
+        {
+            "id" : 30,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 02-21",
+            "inicio": "2021-02-08",
+            "fin": "2021-05-23"
+        },
+        {
+            "id" : 31,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 03-21",
+            "inicio": "2021-06-07",
+            "fin": "2021-09-12"
+        },
+        {
+            "id" : 32,
+            "nombre_ciclo": "MAESTRIA Y LIC MIXTA 01-22",
+            "inicio": "2021-10-04",
+            "fin": "2022-01-23"
+        },
+        {
+            "id" : 33,
+            "nombre_ciclo": "LIC ESC 03-11",
+            "inicio": "2011-06-06",
+            "fin": "2011-09-06"
+        },
+        {
+            "id" : 34,
+            "nombre_ciclo": "LIC ESC 01-12",
+            "inicio": "2011-10-03",
+            "fin": "2012-01-20"
+        },
+        {
+            "id" : 35,
+            "nombre_ciclo": "LIC ESC 02-12",
+            "inicio": "2012-02-07",
+            "fin": "2012-05-18"
+        },
+        {
+            "id" : 36,
+            "nombre_ciclo": "LIC ESC 03-12",
+            "inicio": "2012-06-04",
+            "fin": "2012-09-07"
+        },
+        {
+            "id" : 37,
+            "nombre_ciclo": "LIC ESC 01-13",
+            "inicio": "2012-09-17",
+            "fin": "2013-01-08"
+        },
+        {
+            "id" : 38,
+            "nombre_ciclo": "LIC ESC 02-13",
+            "inicio": "2013-02-05",
+            "fin": "2013-05-17"
+        },
+        {
+            "id" : 39,
+            "nombre_ciclo": "LIC ESC 03-13",
+            "inicio": "2013-06-03",
+            "fin": "2013-09-06"
+        },
+        {
+            "id" : 40,
+            "nombre_ciclo": "LIC ESC 01-14",
+            "inicio": "2013-09-17",
+            "fin": "2013-12-20"
+        },
+        {
+            "id" : 41,
+            "nombre_ciclo": "LIC ESC 02-14",
+            "inicio": "2014-02-04",
+            "fin": "2014-05-16"
+        },
+        {
+            "id" : 42,
+            "nombre_ciclo": "LIC ESC 03-14",
+            "inicio": "2014-06-02",
+            "fin": "2014-09-05"
+        },
+        {
+            "id" : 43,
+            "nombre_ciclo": "LIC ESC 01-15",
+            "inicio": "2014-09-17",
+            "fin": "2015-01-07"
+        },
+        {
+            "id" : 44,
+            "nombre_ciclo": "LIC ESC 02-15",
+            "inicio": "2015-01-19",
+            "fin": "2015-05-06"
+        },
+        {
+            "id" : 45,
+            "nombre_ciclo": "LIC ESC 03-15",
+            "inicio": "2015-05-18",
+            "fin": "2015-08-21"
+        },
+        {
+            "id" : 46,
+            "nombre_ciclo": "LIC ESC 01-16",
+            "inicio": "2015-09-07",
+            "fin": "2015-12-16"
+        },
+        {
+            "id" : 47,
+            "nombre_ciclo": "LIC ESC 02-16",
+            "inicio": "2016-01-18",
+            "fin": "2016-05-02"
+        },
+        {
+            "id" : 48,
+            "nombre_ciclo": "LIC ESC 03-16",
+            "inicio": "2016-05-16",
+            "fin": "2016-08-26"
+        },
+        {
+            "id" : 49,
+            "nombre_ciclo": "LIC ESC 01-17",
+            "inicio": "2016-09-05",
+            "fin": "2016-12-14"
+        },
+        {
+            "id" : 50,
+            "nombre_ciclo": "LIC ESC 02-17",
+            "inicio": "2017-01-23",
+            "fin": "2017-05-08"
+        },
+        {
+            "id" : 51,
+            "nombre_ciclo": "LIC ESC 03-17",
+            "inicio": "2017-05-22",
+            "fin": "2017-09-25"
+        },
+        {
+            "id" : 52,
+            "nombre_ciclo": "LIC ESC 01-18",
+            "inicio": "2017-09-11",
+            "fin": "2017-12-19"
+        },
+        {
+            "id" : 53,
+            "nombre_ciclo": "LIC ESC 02-18",
+            "inicio": "2018-01-22",
+            "fin": "2018-05-03"
+        },
+        {
+            "id" : 54,
+            "nombre_ciclo": "LIC ESC 03-18",
+            "inicio": "2018-05-14",
+            "fin": "2018-08-24"
+        },
+        {
+            "id" : 55,
+            "nombre_ciclo": "LIC ESC 01-19",
+            "inicio": "2018-09-10",
+            "fin": "2018-12-15"
+        },
+        {
+            "id" : 56,
+            "nombre_ciclo": "LIC ESC 02-19",
+            "inicio": "2019-01-21",
+            "fin": "2019-05-03"
+        },
+        {
+            "id" : 57,
+            "nombre_ciclo": "LIC ESC 03-19",
+            "inicio": "2019-05-20",
+            "fin": "2019-08-23"
+        },
+        {
+            "id" : 58,
+            "nombre_ciclo": "LIC ESC 01-20",
+            "inicio": "2019-09-09",
+            "fin": "2019-12-13"
+        },
+        {
+            "id" : 59,
+            "nombre_ciclo": "LIC ESC 02-20",
+            "inicio": "2020-01-20",
+            "fin": "2020-05-03"
+        },
+        {
+            "id" : 60,
+            "nombre_ciclo": "LIC ESC 03-20",
+            "inicio": "2020-05-11",
+            "fin": "2020-08-21"
+        },
+        {
+            "id" : 61,
+            "nombre_ciclo": "LIC ESC 01-21",
+            "inicio": "2020-09-14",
+            "fin": "2020-12-18"
+        }
+    ]
+}
